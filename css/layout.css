@@ -31,7 +31,31 @@ h2{
     gap: 15px;
     grid-template-columns: 2fr 1fr;
 }
-
+.project{
+    margin:0px 5px 5px 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.project-title{
+    align-self: center;
+    margin-bottom: 5px;
+}
+.project-dates{
+    align-self: flex-end;
+    margin-top: auto;
+}
+.project:nth-child(3){
+    margin-right: 0px;
+}
+.projects{
+    display:grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 1fr 1fr;
+}
+.projects-title{
+    grid-column: 1/-1;
+}
 img {
     width: 100%;
 
