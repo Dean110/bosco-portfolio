@@ -1,26 +1,44 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
-.container{
-   display: grid;
-   grid-template-rows: 150px auto;
-   margin: 0px auto;
-   max-width: 1000px;
-   width: 90%;
+body {
+    background-image: url("../images/background.jpg");
 }
-.header{
+h2{
+    margin-bottom: 5px;
+}
+.container {
+    background-color: rgba(255, 255, 255, 0.753);
+    display: grid;
+    grid-template-rows: 150px auto;
+    margin: 0px auto;
+    max-width: 1000px;
+    width: 90%;
+}
+
+.header {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.main-content{
+
+.main-content {
+    padding: 20px;
     display: grid;
+    gap: 15px;
     grid-template-columns: 2fr 1fr;
 }
-img{
+
+img {
     width: 100%;
-    
+
+}
+
+.bosco-info {
+    display: grid;
+    gap: 10px;
+    grid-template-rows: repeat(3, auto);
 }
